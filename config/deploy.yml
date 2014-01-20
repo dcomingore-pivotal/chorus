@@ -12,6 +12,13 @@ daily:
   kill_workers: true
   kill_alpine: true
 
+alpineqa4:
+  host: alpineqa4.alpinenow.local
+  install_path: ~/chorusrails-deploy-new
+  postgres_build: 2
+  kill_workers: true
+  kill_alpine: true
+
 demo:
   host: chorus-demo.alpinenow.local
   install_path: ~/chorusrails-deploy-new
